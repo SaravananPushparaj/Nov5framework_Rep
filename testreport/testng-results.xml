@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Nov5batch" duration-ms="54231" started-at="2017-12-17T07:58:34Z" finished-at="2017-12-17T07:59:28Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Scenario_Cart.testAddcart(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Cart@60285225]" name="testAddcart" class="Scenario_Component.Scenario_Cart"/>
+        <method signature="Scenario_Search.TestInvalidSerch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@1d8d30f7]" name="TestInvalidSerch" class="Scenario_Component.Scenario_Search"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Set1" duration-ms="54231" started-at="2017-12-17T07:58:34Z" finished-at="2017-12-17T07:59:28Z">
+      <class name="Scenario_Component.Scenario_Search">
+        <test-method status="PASS" signature="TestInvalidSerch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@1d8d30f7]" name="TestInvalidSerch" duration-ms="53942" started-at="2017-12-17T13:28:34Z" data-provider="dp_Invalidsearch" finished-at="2017-12-17T13:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Execute_Flag=Y, TC_ID=GB_01, Script_name=Invalid_Search, Search_Item=###, Exp_Result=Sorry! There are no products to display., Order_Set=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestInvalidSerch -->
+      </class> <!-- Scenario_Component.Scenario_Search -->
+    </test> <!-- Set1 -->
+  </suite> <!-- Nov5batch -->
+</testng-results>

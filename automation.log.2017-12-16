@@ -1,0 +1,4 @@
+2017-12-16 13:40:00 INFO  Scenario_Search:28 - Executing the TestCase GB_01Order set is 1.0
+2017-12-16 13:40:20 INFO  Scenario_Search:42 - Passed as Actual Result is  Sorry! There are no products to display. Same as Expected Result Sorry! There are no products to display.
+2017-12-16 13:40:49 INFO  Scenario_Search:28 - Executing the TestCase GB_01Order set is 2.0
+2017-12-16 13:41:23 INFO  Scenario_Search:46 - Failed as Actual Result is  Sorry! There are no products to display.and Expected Result Sorry! There are no products to displa
